@@ -44,18 +44,9 @@ jobs:
     strategy:
       matrix:
         extension:
-          - name: Github
-            publish-script: src/github/publish.sh
-            repo-path: extensions/github
-          - name: Kubernetes
-            publish-script: src/kubernetes/publish.sh
-            repo-path: extensions/kubernetes
           - name: Utils
             publish-script: src/utils/publish.sh
             repo-path: extensions/utils
-          - name: Http
-            publish-script: src/http/publish.sh
-            repo-path: extensions/http
 
     steps:
       - uses: actions/checkout@v4
