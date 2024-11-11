@@ -11,7 +11,7 @@ permissions:
 
 env:
   CI: true
-  EXTENSIONS_REGISTRY_NAME: biceplocaldeploy
+  EXTENSIONS_REGISTRY_NAME: biceplocaldeployjohn
 
 jobs:
   deploy-acr:
